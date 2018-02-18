@@ -1,0 +1,5 @@
+var KosCoin = artifacts.require("./KosCoin.sol");
+
+module.exports = function(deployer) {
+  deployer.deploy(KosCoin)
+}
