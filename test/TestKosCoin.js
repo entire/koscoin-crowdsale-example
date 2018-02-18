@@ -8,7 +8,7 @@ contract('KosCoin', function() {
     
             // Now that the contract is deployed, let's access the state variable
             instance.storedValue().then(function(data){ 
-                assert.equal(Number(data.toString(10)), 100, 'Initial amount was not set correctly');
+                assert.equal(Number(data.toString(10)), 2110, 'Initial amount was not set correctly');
                 done();
             });
         });
